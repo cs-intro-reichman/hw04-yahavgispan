@@ -17,7 +17,7 @@ public class Primes {
         int primes = numberOfTrue (isPrime);
         int ratio = (primes * 100) / n;
         
-        System.out.println("There are xxx " + primes + " primes between 2 and " + n + " (" + ratio + "% are primes)");
+        System.out.println("There are " + primes + " primes between 2 and " + n + " (" + ratio + "% are primes)");
 
     }
 
@@ -38,8 +38,11 @@ public class Primes {
     int i = 0;
     int counter = 0;
     while (i < arr.length){
-        if (arr [i] == true)
-           counter++;
+        if (arr [i] == true){
+            counter++;
+            System.out.println(i);
+        }
+        
         i++;
     }
     return counter;
