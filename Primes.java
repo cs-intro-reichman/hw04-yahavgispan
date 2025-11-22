@@ -17,7 +17,7 @@ public class Primes {
         int primes = numberOfTrue (isPrime);
         int ratio = (primes * 100) / n;
         
-        System.out.println("There are " + primes + " primes between 2 and " + n + " (" + ratio + "% are primes)");
+        System.out.println("There are " + primes + " primes between 2 and " + n + ". (" + ratio + "% are primes)");
 
     }
 
@@ -33,7 +33,7 @@ public class Primes {
 }
 
 
-//מחזיר את מספר התאים במערך שערכם אמת
+// מדפיס ומחזיר את מספר התאים במערך שערכם אמת
  public static int numberOfTrue (boolean[] arr) {
     int i = 0;
     int counter = 0;
