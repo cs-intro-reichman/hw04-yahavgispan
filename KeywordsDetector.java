@@ -25,7 +25,6 @@ public class KeywordsDetector {
         for (int i = 0; i< keywords.length; i++){
             if ((contains(sentences[j].toLowerCase(), keywords[i].toLowerCase())) == true){
             System.out.println(sentences[j]);
-            System.out.println("$$$");
             break;
             }
 
